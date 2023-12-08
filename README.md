@@ -35,7 +35,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 
 
 # Installation
-Instructions on how to install *TheFatRat*
+Instructions on how to install *REvil-Tracer*
 ```bash
 git clone https://github.com/mrsakshammalik/REvil-Tracer.git
 cd REvil-Tracer
