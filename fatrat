@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 #-Metadata----------------------------------------------------#
-#  Filename: TheFatRat(v1.9.8#dev)       (Update: 2022-01-27) #
+#  Filename: REvil-Tracer(v1.9#dev)       (Update: 2023-12-09)#
 #-Info--------------------------------------------------------#
-#  TheFatRat - A Massive Exploiting Tool                      #
+#  REvil-Tracer - A Massive Exploiting Tool                   #
 #-Author(s)---------------------------------------------------#
-#  Edo maland ~ @screetsec                                    #
+#  Saksham Malik ~ @mrsakshammalik                            #
 #-Operating System--------------------------------------------#
 #  Designed for & tested on: Linux 	                      #
 #  Reported working : Ubuntu 16                               #
@@ -4505,7 +4505,7 @@ echo -e $red"	            )_/    $cyan     \ IIIIII /                    "
 echo -e $red"	         $yellow  (@        $cyan    --------                      "
 echo -e $cyan"		            PwnWind Version $red v1.5 "
 echo -e $cyan"		        Pwned Windows with backdoor"
-echo -e " 		      Author : $red""Edo Maland (Screetsec)"
+echo -e " 		      Author : $red""Saksham Malik (mrsakshammalik)"
 echo -e $red"  	     Powershell$cyan Injection attacks on any$red Windows Platform	           ";
 			echo ""
  			echo -e $yellow"	[1] $okegreen Create a bat file+Powershell (FUD 100%)"
@@ -5383,7 +5383,7 @@ echo "  |____|   |__|   \____/_______  /\___  >___  /__|";
 echo -e "                               \/     \/    \/    \n";
 echo -e "\tTroDebi  -  Trojan Debian Package For Remote Acces   ";
 echo -e "\tVersion  -  1.0   "
-echo -e "\tWrite by -  screetsec                                           \n\n       "
+echo -e "\tWrite by -  mrsakshammalik                                          \n\n       "
 echo -e "   [desc] - Embed a Trojan Into Deb PKG + Run Post Install       "
   echo -e $okegreen""
         echo -e $yellow "  Your local IPV4 address is : ${lanip}"
@@ -5629,7 +5629,7 @@ echo "        | |/            (____)	"
 echo "         \__/          /   |	"
 echo "          /           /  ___)	"
 echo -e "         /    \       \    _)                       $okegreen ) "
-echo -e $red"        \      \           /       $okegreen  TheFatRat $okegreen     ( "
+echo -e $red"        \      \           /       $okegreen  REvil-Tracer $okegreen     ( "
 echo -e $red"      \/ \      \_________/   |\___________________ $okegreen ) "
 echo -e $red"       \/ \      /            |     $okegreen"===="$red _______)__) "
 echo -e "        \/ \    /           __/___  $okegreen"===="$red _/  "
@@ -5809,15 +5809,15 @@ menu () {
   echo -e $okegreen"        |    | 							"
   echo -e $okegreen"        |____| 							"
   echo -e $okegreen"       _|____|_      $okegreen _____ _       _____     _   _____     _       "
-  echo -e $okegreen"        /  $white"ee"\_      $okegreen|_   _| |_ ___|   __|___| |_| __  |___| |_     "
-  echo -e $okegreen"      .<     __O     $okegreen  | | |   | -_|   __| .'|  _|    -| .'|  _|	"
+  echo -e $okegreen"        /  $white"ee"\_      $okegreen|_   "
+  echo -e $okegreen"      .<     __O     $okegreen  |	"
   echo -e $okegreen"     /\ \.-.' \      $okegreen  |_| |_|_|___|__|  |___|_| |__|__|___|_|  	"
   echo -e $okegreen"    J  \.|'.\/ \                  				"
   echo -e $okegreen"    | |_.|. | | |   $white"[$okegreen--$white] $cyan " $white"Backdoor" Creator for Remote Acces $white[$okegreen--$white] 	"
-  echo -e $okegreen"     \__.' .|-' /   $white"[$okegreen--$white] $cyan" Created by: "$red"Edo Maland (Screetsec) $white[$okegreen--$white]	"
+  echo -e $okegreen"     \__.' .|-' /   $white"[$okegreen--$white] $cyan" Created by: "$red"Edo Maland (mrsakshammalik) $white[$okegreen--$white]	"
   echo -e $okegreen"     L   /|o'--'\   $white"[$okegreen--$white] $cyan"           Version: $red"$Versi"           $white[$okegreen--$white]	"
   echo -e $okegreen"     |  /\/\/\   \  $white"[$okegreen--$white] $cyan"         Codename: $red"$codename"          $white[$okegreen--$white]    "
-  echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Follow me on Github: $red@Screetsec   $white[$okegreen--$white]	"
+  echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Follow me on Github: $red@mrsakshammalik   $white[$okegreen--$white]	"
   echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Dracos Linux : $red@dracos-linux.org  $white[$okegreen--$white]	"
   echo -e $okegreen"     |/         /   $white"[$okegreen--$white] $cyan"   				     $white[$okegreen--$white]		"
   echo -e $okegreen"       \      .'\.  $white"[$okegreen--$white]$white "    SELECT AN OPTION TO BEGIN:      $white[$okegreen--$white]  "
@@ -6053,15 +6053,15 @@ echo -e $okegreen"         ____							"
 echo -e $okegreen"        |    | 							"
 echo -e $okegreen"        |____| 							"
 echo -e $okegreen"       _|____|_      $okegreen _____ _       _____     _   _____     _       "
-echo -e $okegreen"        /  $white"ee"\_      $okegreen|_   _| |_ ___|   __|___| |_| __  |___| |_     "
-echo -e $okegreen"      .<     __O     $okegreen  | | |   | -_|   __| .'|  _|    -| .'|  _|	"
+echo -e $okegreen"        /  $white"ee"\_      $okegreen|_   __     "
+echo -e $okegreen"      .<     __O     $okegreen  	"
 echo -e $okegreen"     /\ \.-.' \      $okegreen  |_| |_|_|___|__|  |___|_| |__|__|___|_|  	"
 echo -e $okegreen"    J  \.|'.\/ \                  				"
 echo -e $okegreen"    | |_.|. | | |   $white"[$okegreen--$white] $cyan " $white"Backdoor" Creator for Remote Acces $white[$okegreen--$white] 	"
-echo -e $okegreen"     \__.' .|-' /   $white"[$okegreen--$white] $cyan" Created by: "$red"Edo Maland (Screetsec) $white[$okegreen--$white]	"
+echo -e $okegreen"     \__.' .|-' /   $white"[$okegreen--$white] $cyan" Created by: "$red"Edo Maland (mrsakshammalik) $white[$okegreen--$white]	"
 echo -e $okegreen"     L   /|o'--'\   $white"[$okegreen--$white] $cyan"           Version: $red"$Versi"           $white[$okegreen--$white]	"
 echo -e $okegreen"     |  /\/\/\   \  $white"[$okegreen--$white] $cyan"         Codename: $red"$codename"          $white[$okegreen--$white]    "
-echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Follow me on Github: $red@Screetsec   $white[$okegreen--$white]	"
+echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Follow me on Github: $red@mrsakshammalik   $white[$okegreen--$white]	"
 echo -e $okegreen"     J /      \.__\ $white"[$okegreen--$white] $cyan"  Dracos Linux : $red@dracos-linux.org  $white[$okegreen--$white]	"
 echo -e $okegreen"     |/         /   $white"[$okegreen--$white] $cyan"   				     $white[$okegreen--$white]		"
 echo -e $okegreen"       \      .'\.  $white"[$okegreen--$white]$white "    SELECT AN OPTION TO BEGIN:      $white[$okegreen--$white]  "
@@ -6260,7 +6260,7 @@ elif test $fatrat == '11'
         fi
     elif test $fatrat == '15'
       then
-      firefox https://github.com/Screetsec/TheFatRat/blob/master/README.md
+      firefox https://github.com/mrsakshammalik/REvil-Tracer/blob/master/README.md
       clear
      	menu
 
