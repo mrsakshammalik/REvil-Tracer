@@ -82,7 +82,7 @@ echo "[✔]"
 *)
 echo "Error"
 echo ""
-echo "TheFatRat detected an incorrent version of mingw installed"
+echo "REvil-tracer detected an incorrent version of mingw installed"
 echo "Do you wish to remove it and install the approriate one ?"
 echo -n "Choose (yes/no) : "
 read -r sel
@@ -167,7 +167,7 @@ ct=`sed -n 1p "$chk"`
 #if value of check is 0 theen some package was not installed sucefully 
 if [ "$ct" == "0" ]; then
 clear
-echo -e "$red" "Fatrat was not able to install some packages"
+echo -e "$red" "REvil-Tracer was not able to install some packages"
 echo ""
 echo -e "$blue" "Reactivating your original repositories"
 rm -f /etc/apt/sources.list
@@ -197,7 +197,7 @@ rm -rf "$config" >/dev/null 2>&1
 echo ""
 echo "Was not possible to install The Packages Labeled (Not Ok) in this list above" >> "$inst"
 echo "Try : (apt-get remove --purge <packagename> && apt-get autoremove && apt-get install -f)" >> "$inst"
-echo "before running fatrat setup script again" >> "$inst"
+echo "before running REvil-Tracer setup script again" >> "$inst"
 echo "" >> "$inst"
 echo "***********Your current sources.list***************"
 sclst=`cat /etc/apt/sources.list`
@@ -289,14 +289,14 @@ fi
 function crtdir() {
 	echo ""
 echo -e "$green""Write output directory for fatrat generated files or press enter to default."
-echo -e "$orange""Default :$yellow $HOME/Fatrat_Generated"	
+echo -e "$orange""Default :$yellow $HOME/REvil-Tracer_Generated"	
 echo ""
 echo -ne "$orange""Write: $green"
 read -r pth	
 if [[ -z "$pth" ]]
 then
-echo "$HOME/Fatrat_Generated" | tee -a "$config" "$log" > /dev/null 2>&1
-mkdir $HOME/Fatrat_Generated > /dev/null 2>&1
+echo "$HOME/REvil-Tracer_Generated" | tee -a "$config" "$log" > /dev/null 2>&1
+mkdir $HOME/REvil-Tracer > /dev/null 2>&1
 else
 mkdir -p "$pth" > /dev/null 2>&1
 if [[ ! -d "$pth" ]] 
@@ -304,12 +304,12 @@ then
 echo ""
 echo -e "$red""There was an error creating $pth , default directory will be assigned"
 echo -ne "$green""Press ENTER to continue"
-echo "$HOME/Fatrat_Generated" | tee -a "$config" "$log" > /dev/null 2>&1
-mkdir $HOME/Fatrat_Generated > /dev/null 2>&1
+echo "$HOME/REvil-Tracer_Generated" | tee -a "$config" "$log" > /dev/null 2>&1
+mkdir $HOME/REvil-Tracer_Generated > /dev/null 2>&1
 else
 echo "$pth" | tee -a "$config" "$log" > /dev/null 2>&1
 echo ""
-echo -e "$orange""All fatrat generated files will be stored in :"
+echo -e "$orange""All REvil-Tracer generated files will be stored in :"
 echo -e "$green""$pth"
 echo ""
 echo -ne "$green""Press ENTER to continue"
@@ -1111,7 +1111,7 @@ chmod +x fatrat
 which fatrat >> "$log" 2>&1
 clear
 echo ""
-echo -e "$green" "Instalation completed , To execute fatrat write anywhere in your terminal fatrat"
+echo -e "$green" "Instalation completed , To execute fatrat write anywhere in your terminal REvil-Tracer"
 fi
 ;;
 
@@ -1119,14 +1119,14 @@ n|no|No|NO)
 chmod +x fatrat
 clear
 echo ""
-echo -e "$green" "Instalation completed , To execute fatrat write in fatrat directory ./fatrat"
+echo -e "$green" "Instalation completed , To execute fatrat write in fatrat directory ./reviltracer"
 ;;
 
 *)
 chmod +x fatrat
 clear
 echo ""
-echo -e "$green" "Instalation completed , To execute fatrat write in fatrat directory ./fatrat"
+echo -e "$green" "Instalation completed , To execute fatrat write in fatrat directory ./reviltracer"
 ;;
 esac
 exit 
