@@ -709,8 +709,8 @@ rm -f "$config"
 #Creating new config file 
 touch "$config"
 echo "********************************************************************************************************" >> "$config"
-echo "** Configuration Paths for TheFatRat , do not delete anything from this file or program will not work **" >> "$config"
-echo "**       if you need to reconfig your tools path , then run ./setup.sh in (TheFatRat directory) .     **" >> "$config"
+echo "** Configuration Paths for REvil-Tracer , do not delete anything from this file or program will not work **" >> "$config"
+echo "**       if you need to reconfig your tools path , then run ./setup.sh in (REvil-Tracer directory) .     **" >> "$config"
 echo "********************************************************************************************************" >> "$config"
 echo "jarsigner" | tee -a "$config" >> /dev/null 2>&1
 else
@@ -726,8 +726,8 @@ rm -f "$config"
 #Creating new config file 
 touch "$config"
 echo "********************************************************************************************************" >> "$config"
-echo "** Configuration Paths for TheFatRat , do not delete anything from this file or program will not work **" >> "$config"
-echo "**       if you need to reconfig your tools path , then run ./setup.sh in (TheFatRat directory) .     **" >> "$config"
+echo "** Configuration Paths for REvil-Tracer , do not delete anything from this file or program will not work **" >> "$config"
+echo "**       if you need to reconfig your tools path , then run ./setup.sh in (REvil-Tracer directory) .     **" >> "$config"
 echo "********************************************************************************************************" >> "$config"
 echo "jarsigner" | tee -a "$config" >> /dev/null 2>&1
 else
@@ -1274,7 +1274,7 @@ echo -e "$yellow"""
 read -rsp $'Press [ENTER] key to continue setup \n' -n 1 key
 
 }
-# setup.sh Original Author : Edo maland ( Screetsec )
+# setup.sh Original Author : Saksham Malik ( mrsakshammalik )
 # Script rebuilded by peterpt
 # Install all dependencies nedded
 # configuration all file for fixing all problems
@@ -1367,12 +1367,12 @@ sleep 0.5
 clear
 #Banner dong biar keren
 echo -e "$green" ""
-echo "___________         __  __________          __    "
-echo "\_   _____/_____  _/  |_\______   \_____  _/  |_  "
-echo " |    __)  \__  \ \   __\|       _/\__  \ \   __\ "
-echo " |     \    / __ \_|  |  |    |   \ / __ \_|  |   "
-echo " \___  /   (____  /|__|  |____|_  /(____  /|__|   "
-echo "     \/         \/              \/      \/        "
+echo "██████████    █████████  ████           ████  ██████████████   ██"
+echo "███    ███    ██          ████         ████         ██         ██"
+echo "███    ███    █████████    ████       ████          ██         ██"
+echo "██████████    █████████     ████     ████           ██         ██"
+echo "███ ██        ██             ████   ████            ██         ██"
+echo "███   ███     █████████       █████████       ██████████████   ██████████"
 echo "                 ____    ________                 "
 echo "                /_   |  /   __   \                "
 echo "                 |   |  \____    /                "
@@ -1380,9 +1380,9 @@ echo "                 |   |     /    /                 "
 echo "                 |___| /\ /____/                  "
 echo "                       \/                         "
 echo ""
-echo -e "$blue" "         Setup Script for FATRAT 1.9.7       "
+echo -e "$blue" "         Setup Script for REvil-Tracer 1.9       "
 echo "------------------------------------------------------" > "$log"
-echo "| Tools paths configured in setup.sh for TheFatRat |" >> "$log"
+echo "| Tools paths configured in setup.sh for REvil-Tracer |" >> "$log"
 echo "------------------------------------------------------" >> "$log"
 echo "                                                      " >> "$log"
 echo ""
